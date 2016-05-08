@@ -1,0 +1,15 @@
+#dynamic 0x3B9EFC
+
+#org @start
+checkflag 0x515
+if 0x1 goto @already
+fanfare 0x100
+special 0x0
+waitfanfare
+setflag 0x515
+release
+end
+
+#org @already
+release
+end

@@ -1,0 +1,30 @@
+#dynamic 0x71BA8C
+
+#org @start
+lock 
+faceplayer
+preparemsg @hi
+waitmsg
+pokemart @mart
+msgbox @come 0x6
+release
+end
+
+#org @hi
+= Hi there, Trainer!\pMay I help you?
+
+#org @come
+= Please come again.
+
+#org @mart
+#raw word 0x121
+#raw word 0x122
+#raw word 0x123
+#raw word 0x12F
+#raw word 0x139
+#raw word 0x13D
+#raw word 0x13E
+#raw word 0x143
+#raw word 0x146
+#raw word 0x147
+#raw word 0x0

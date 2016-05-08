@@ -1,0 +1,14 @@
+#dynamic 0x2D5295
+
+#org @start
+lock
+faceplayer
+msgbox @hi 0x4
+closeonkeypress
+hidesprite 0x1
+fadescreen 0x0
+release
+end
+
+#org @hi
+= Hello \v\h01
