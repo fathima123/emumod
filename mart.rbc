@@ -5,7 +5,7 @@ lock
 faceplayer
 preparemsg @hi
 waitmsg
-pokemart @mart
+mart @mart
 msgbox @come 0x6
 release
 end
